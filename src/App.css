@@ -1,0 +1,61 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(rgba(0, 0, 58, 0.8), rgba(0, 0, 58, 0.5)),
+    url("./assets/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container h1 {
+  color: snow;
+  font-size: 50px;
+  margin-bottom: 20px;
+
+}
+.couter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 350px;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.603);
+  background-color: rgba(255, 255, 255, 0.247);
+}
+.couter .top,
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+}
+.couter .bottom {
+  gap: 20px;
+}
+.couter .top {
+  color: snow;
+  font-size: 50px;
+  font-weight: bold;
+}
+.couter .bottom button {
+  padding: 15px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  background: #000;
+  font-size: 25px;
+  transition: all 0.5s ease;
+  color: snow;
+}
+
+.couter .bottom button:hover {
+  background-color: snow;
+  color: black;
+}
