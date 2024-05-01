@@ -27,7 +27,7 @@ const App = () => {
   return (
     <>
       <div className="container">
-        <h1>Couter App </h1>
+        <h1>Counter App </h1>
         <div className="couter">
           <div className="top">{value}</div>
           <div className="bottom">
